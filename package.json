@@ -1,0 +1,18 @@
+{
+  "name": "week-03-slide-deck",
+  "version": "1.0.0",
+  "description": "Following along with the slide desk for week 03",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "./node_modules/.bin/mocha ./tests/*.test.js"
+  },
+  "author": "Steph",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.3.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.0.1"
+  }
+}
